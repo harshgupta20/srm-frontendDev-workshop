@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+
+    background-color: brown;
+}
+
+.main-content{
+    display: flex;
+}
+
+.left-bar{
+    width: 20%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.middle-bar{
+    width: 70%;
+    height: 100vh;
+
+    background-color: greenyellow;
+}
+
+.right-bar{
+    width: 10%;
+    height: 100vh;
+
+    background-color: blueviolet;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .main-content{
+        display: block;
+    }
+
+    .left-bar{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .middle-bar{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .right-bar{
+        width: 100%;
+        height: 10vh;
+    }
+
+
+}
