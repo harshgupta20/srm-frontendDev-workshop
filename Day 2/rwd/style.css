@@ -1,0 +1,26 @@
+/* Big Box CSS */
+.main_box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 10px solid blue;
+}
+/* Small Box CSS */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 10px;
+
+}
+
+
+/* Second Box CSS */
+.box2{
+    width: 100px;
+    height: 100px;
+    
+    background-color: aqua;
+}
